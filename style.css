@@ -105,7 +105,8 @@ main .menu-title-container{
 main .menu-title-container h3{
 
     font-size: 20px;
-    color: #FF0000;
+    /* color: #FF0000; */
+    color: green;
     font-family: 'Kanit', sans-serif;
     
     

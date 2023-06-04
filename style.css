@@ -1,0 +1,676 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+ 
+
+
+/*-----------------------------------------------Header Css--------------------------------------*/ 
+
+
+ .header-container{
+    width: 100%;
+    height: 700px;
+    position: relative;
+ }
+ 
+ .header-container img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(90%);
+    object-fit: cover;
+    object-position: 50% 65%;
+    position:absolute;
+ 
+ 
+ }
+ 
+ .navbar{
+ 
+    height: 110px;
+    width: 100%;
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+ 
+ }
+ 
+ .navbar h1{
+    color: #8C0712;
+    margin-left: 44px;
+    font-size: 28px;
+    font-family: 'Sigmar', cursive;
+ 
+ }
+ 
+ .navbar ul{
+    display: flex;
+    margin-right: 12%;
+ 
+ 
+ 
+ 
+ }
+ 
+ .navbar li{
+    color: #D97B29;
+    list-style: none;
+    margin-left: 70px;
+    font-size: 16px;
+    font-family: 'Sigmar', cursive;
+ }
+
+
+/*-----------------------------------------------Main Css--------------------------------------------*/
+/*------------------------Burger Css-------------------------*/
+
+main .main-container{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+
+    
+}
+
+
+main .menu-container{
+
+    height: 330px ;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: #D63B3D solid 1px ;
+
+}
+
+
+
+
+main .menu-title-container{
+
+    height: 10%;
+    width: 100%;
+   
+    display: flex;
+    align-items: flex-end;
+
+
+}
+
+main .menu-title-container h3{
+
+    font-size: 20px;
+    color: #FF0000;
+    font-family: 'Kanit', sans-serif;
+    
+    
+
+
+}
+
+main .menu-section-container{
+    height: 90%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+
+
+main .burger-container{
+
+    height: 250px ;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}  
+
+
+main .burger-image1{
+
+    height: 80% ;
+    width:100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}  
+
+main .burger-image2{
+
+    height: 80% ;
+    width:100%;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    
+
+}
+
+main .burger-image3{
+
+    height: 80% ;
+    width:100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    
+
+}  
+
+
+main .burger-image1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    
+}
+
+main .burger-image2 img{
+    height: 90%;
+    width: 68%;
+    
+    margin-top: 5px;
+    object-fit: scale-down;
+    
+}
+
+main .burger-image3 img{
+    height: 83%;
+    width: 90%;
+  
+    margin-top: 5px;
+    object-fit: scale-down;
+   
+    
+    
+}
+
+
+
+
+main .burger-title{
+
+    height: 20% ;
+    width:100%;
+    
+    
+    
+
+}  
+
+
+main .burger-title p{
+
+    font-size: 15px;
+    font-weight: bolder;
+    color:#0D0D0D;
+    font-family: 'Kanit', sans-serif;
+    text-align: right;
+     
+   
+
+}  
+
+
+/*------------------------Bigmac Css-------------------------*/
+
+main .bigmac-container{
+    height: 440px;
+    width: 100%;
+    background-color: #F2A516;
+    display: flex;
+}
+
+main .bigmac-image-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+main .bigmac-image-container img{
+    height: 80%;
+    width: 70%;
+    object-fit: scale-down;
+    
+    
+    
+}
+
+
+main .bigmac-info-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+main .bigmac-inner-info-container{
+    height: 80%;
+    width: 60%;
+    
+    
+    
+    
+    
+    
+}
+
+
+main .bigmac-title{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+    
+    
+}
+
+main .bigmac-title h2{
+   font-size: 35px; 
+   font-weight: bolder;
+   color: #8C0712;
+   font-family: 'Sigmar', cursive;
+   word-spacing: 1px;
+   letter-spacing: 1px;
+    
+}
+
+main .bigmac-title h2 span{
+     
+    color: #F2EFE9;    
+     
+ }
+
+main .bigmac-content{
+    height: 40%;
+    width: 100%;
+    
+       
+    
+}
+
+main .bigmac-content p{
+    font-size: 17px;
+    font-family: 'Righteous', cursive;
+    text-align: justify;
+    color: black;
+    font-weight: bolder;
+    padding-top: 5px ;
+  
+}
+main .bigmac-button{
+    height: 30%;
+    width: 100%;
+    
+    
+    
+
+    
+}
+
+main .bigmac-button button{
+    height: 70px;
+    width: 200px;
+    font-weight: bolder;
+    background-color: #8C0712;
+    color: white;
+    border-style: none;
+    border-radius: 50px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+    transition: all ease .3s;
+   
+    
+    
+
+    
+}
+
+
+main .bigmac-button button:hover{
+    
+    background-color: #0D0D0D;
+    color:white;
+    
+    
+    
+}
+
+
+
+/*------------------------Katburger Css-------------------------*/
+
+
+
+
+main .katburger{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-color:#8C0712;
+    
+}
+
+main .katburger-image-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main .katburger-inner-image-container{
+    width: 42%;
+    height: 80%;
+    border-radius: 50%;
+    margin-right: 70px ;
+    
+    
+}
+
+main .katburger-inner-image-container img{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 70%;
+    
+}
+
+
+main .katburger-info-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+main .katburger-inner-info-container{
+    height: 75%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main .katburger-title{
+    flex-grow: 1;
+    
+   
+    
+}
+
+main .katburger-title h2{
+   font-size: 50px; 
+   font-weight: bolder;
+   color:#F2A516;
+   font-family: 'Sigmar', cursive;
+   word-spacing: 1px;
+   letter-spacing: 1px;
+   text-align: center;
+   
+    
+}
+
+main .katburger-content{
+    flex-grow: 2;
+    
+    
+}
+
+main .katburger-content p{
+    font-size: 17px;
+    font-family: 'Righteous', cursive;
+    text-align: justify;
+    color: #F2EFE9;
+    font-weight: bolder;
+    padding-top: 5px ;
+    line-height: 1.6;
+}
+
+
+main .katburger-button{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+main .katburger-button button{
+    height: 70px;
+    width: 200px;
+    font-weight: bolder;
+    background-color:#F2A516;
+    color: #8C0712;
+    padding: 5px;
+    border-style: none;
+    border-radius: 50px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+    transition: all ease .3s;
+
+
+}
+
+main .katburger-button button:hover{
+        
+    background-color: #0D0D0D;
+    color:white;
+
+}
+
+
+
+main .about-container{
+    height: 900px;
+    width: 100%;
+    position: relative;
+    
+}    
+
+main .about-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 58%;
+    filter: brightness(35%);
+    position:absolute;
+}
+
+main .about-above-container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main .about-title-container{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+main .about-title-inner-container{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+    
+   
+   
+}
+
+
+main .about-inner-container-tittle{
+    flex-grow: 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+main .about-inner-container-tittle-explanation{
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+main .about-title-inner-container h1{
+    color: white;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+main .about-title-inner-container p{
+    color: white;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+main .about-center-container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main .about-inner-center-container{
+    height: 50%;
+    width: 60%;
+    display: flex;
+    background-color: #0d0d0d88;
+    
+    border: whitesmoke solid 1px;
+    border-radius: 50px;
+    
+    
+}
+
+
+main .about-center-image{
+    height: 100%;
+    width: 35%;
+    position: relative;
+    
+    
+    
+}
+
+
+
+main .about-center-image .img1 {
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+    
+}
+
+main .about-center-image .img2 {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+
+    
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+
+main .about-center-image .img1 img{
+    
+    height: 70%;
+    width: 80%;
+    
+    
+    object-fit: scale-down;
+    filter: brightness(100%);
+    
+    
+    
+
+    
+}
+
+
+main .about-center-image .img2 img{
+    
+    height: 70%;
+    width: 80%;
+    
+    object-fit: scale-down;
+    filter: brightness(100%);
+    
+    
+
+    
+}
+
+
+main .about-center-info{
+    height: 100%;
+    width: 65%;
+    border: blue solid 1px;
+}
+
+
+
+
+
+footer .space2{
+    height:400px;
+    width: 100%;
+
+}

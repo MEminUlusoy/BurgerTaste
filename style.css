@@ -519,7 +519,7 @@ main .about-above-container{
 }
 
 main .about-title-container{
-    height: 20%;
+    height: 25%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -532,6 +532,7 @@ main .about-title-inner-container{
     width: 40%;
     display: flex;
     flex-direction: column;
+    
     
     
    
@@ -550,8 +551,10 @@ main .about-inner-container-tittle{
 main .about-inner-container-tittle-explanation{
     flex-grow: 1;
     display: flex;
+    text-align: center;
     align-items: flex-end;
     justify-content: center;
+    
     
 }
 
@@ -569,17 +572,19 @@ main .about-title-inner-container p{
 }
 
 main .about-center-container{
-    height: 80%;
+    height: 75%;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    
     
 }
 
 main .about-inner-center-container{
-    height: 50%;
+    height: 60%;
     width: 60%;
+    margin-top: 50px;
     display: flex;
     background-color: #0d0d0d88;
     
@@ -592,7 +597,7 @@ main .about-inner-center-container{
 
 main .about-center-image{
     height: 100%;
-    width: 35%;
+    width: 40%;
     position: relative;
     
     
@@ -661,11 +666,78 @@ main .about-center-image .img2 img{
 
 main .about-center-info{
     height: 100%;
-    width: 65%;
-    border: blue solid 1px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
+main .about-inner-center-burger-title{
+    flex-grow: 5;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    
+}
 
+main .about-inner-center-burger-title h2{
+    color: white;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+main .about-inner-center-burger-content{
+    flex-grow: 1;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    
+    
+    
+    
+}
+
+main .about-inner-center-burger-content p{
+    color:#F2EFE9;
+    
+    width: 45%;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+main .about-inner-center-burger-button{
+    flex-grow: 5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    
+}
+
+main .about-inner-center-burger-button input{
+    height: 56px;
+    width: 45%;
+    background-color: #F2EFE9;
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    border-style: none;
+    text-align: center;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #0d0d0d88;
+}
+
+main .about-inner-center-burger-button button{
+    height: 56px;
+    width: 25%;
+    font-family: 'Kanit', sans-serif;
+    border-style: none;
+    background-color:#FF0000;
+    color: white;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #0d0d0d88;
+    
+    
+}
 
 
 

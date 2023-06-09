@@ -62,6 +62,12 @@
     font-family: 'Sigmar', cursive;
  }
 
+  
+ .navbar li:hover{
+    cursor: pointer;
+ }
+
+
 
 /*-----------------------------------------------Main Css--------------------------------------------*/
 /*------------------------Burger Css-------------------------*/
@@ -137,6 +143,8 @@ main .burger-container{
 }  
 
 
+
+
 main .burger-image1{
 
     height: 80% ;
@@ -145,7 +153,12 @@ main .burger-image1{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 1s ease;
+}  
 
+main .burger-image1:hover{
+    transform: scale(1.2);
+    
 }  
 
 main .burger-image2{
@@ -157,9 +170,14 @@ main .burger-image2{
     display: flex;
     justify-content: center;
     align-items:flex-end;
-    
+    transition: all 1s ease;
 
 }
+
+main .burger-image2:hover{
+    transform: scale(1.2);
+    
+}  
 
 main .burger-image3{
 
@@ -169,9 +187,15 @@ main .burger-image3{
     display: flex;
     justify-content: center;
     align-items:flex-end;
-    
+    transition: all 1s ease;
 
 }  
+
+main .burger-image3:hover{
+    transform: scale(1.2);
+    
+}  
+
 
 
 main .burger-image1 img{
@@ -213,6 +237,8 @@ main .burger-title{
     
 
 }  
+
+
 
 
 main .burger-title p{
@@ -343,8 +369,8 @@ main .bigmac-button button{
     border-radius: 50px;
     font-family: 'Kanit', sans-serif;
     letter-spacing: 1px;
-    transition: all ease .3s;
-   
+    transition: all ease 1s;
+    
     
     
 
@@ -356,6 +382,7 @@ main .bigmac-button button:hover{
     
     background-color: #0D0D0D;
     color:white;
+    width: 300px;
     
     
     
@@ -461,9 +488,7 @@ main .katburger-content p{
 
 main .katburger-button{
     flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     
 
 }
@@ -479,7 +504,7 @@ main .katburger-button button{
     border-radius: 50px;
     font-family: 'Kanit', sans-serif;
     letter-spacing: 1px;
-    transition: all ease .3s;
+    transition: all ease 1s;
 
 
 }
@@ -488,6 +513,7 @@ main .katburger-button button:hover{
         
     background-color: #0D0D0D;
     color:white;
+    width: 300px;
 
 }
 
@@ -741,8 +767,179 @@ main .about-inner-center-burger-button button{
 
 
 
-footer .space2{
-    height:400px;
-    width: 100%;
+/* --------------------------Footer-------------------------------*/
 
+
+footer .footer-container{
+    height:600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #310410;
+}
+
+
+footer .footer-inner-container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+
+}
+
+
+
+footer .footer-left-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+footer .footer-left-title-container{
+    flex-grow: 3;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    
+
+}
+
+footer .footer-left-title-container h4{
+    font-family: 'Libre Caslon Display', serif;
+    color: #E59F07;
+    font-size: 25px;
+    margin-left: 70px ;
+    margin-bottom: 15px;
+    
+    
+   
+}
+
+
+footer .footer-left-content-container{
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+footer .footer-left-content-container p{
+    text-align: justify;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.849);
+    margin-left: 70px;
+    margin-top: 20px;
+    line-height: 1.2em;
+    font-family: 'Libre Caslon Display', serif;
+
+}
+
+footer .footer-left-button-container{
+    flex-grow: 3;
+
+}
+
+
+footer .footer-left-button-container ul{
+    margin-left: 40px;
+    list-style: none;
+    display: flex;
+
+}
+
+
+footer .footer-left-button-container li{
+    margin-left: 30px;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.849);
+
+
+}
+
+footer .footer-left-button-container li:hover{
+    
+    animation: touch .1s ease-in-out;
+
+}
+
+@keyframes touch{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(45deg);}
+    50%{transform:  rotate(0deg);}
+    75%{transform: rotate(-45deg);}
+    100%{transform: rotate(0deg);}
+
+}
+
+
+
+
+
+footer .footer-right-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+
+}
+
+
+footer .footer-right-items{
+    height: 100%;
+    width: 33.333333333333333333333333333333333333333333333%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer .footer-right-items-title{
+    height: 34%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    
+}
+
+
+footer .footer-right-items-title h4{
+    font-family: 'Libre Caslon Display', serif;
+    color: #E59F07;
+    font-size: 25px;
+    
+}
+
+footer .footer-right-items-content{
+    height: 66%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    
+}
+
+footer .footer-right-items-content ul{
+    list-style: none;
+    margin-top: 20px;
+    
+}
+
+
+footer .footer-right-items-content li{
+    color: rgba(255, 255, 255, 0.849);
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 1.2em;
+    font-family: 'Libre Caslon Display', serif;
+    transition: all .5s ease;
+    
+}
+
+footer .footer-right-items-content li:hover{
+    margin-left: 20px;
+    
 }
